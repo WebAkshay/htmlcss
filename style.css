@@ -1,0 +1,31 @@
+/* .border{
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    outline: 5px inset magenta;
+} */
+
+.parent-container{
+    /* background: skyblue; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.boxes{
+    /* border: 2px solid; */
+    display: inline-block;
+    width: 400px;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.boxes .text-content{
+    padding: 10px;
+
+}
+
